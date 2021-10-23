@@ -30,5 +30,27 @@ public class Main {
         System.out.println(Arrays.toString(season));
 
         System.out.println(season[season.length - 1]);
+
+
+        int[] test_array = new int[3];
+        test_array[0] = 10;
+        test_array[1] = 20;
+        test_array[2] = 30;
+
+        System.out.println(test_array[2]);
+
+        int[] scores = new int[] {10, 20, 30};
+        System.out.println(scores[scores.length - 1]);
+
+        char score = 'C';
+        switch (score) {
+            case 'A':
+                System.out.println("A등급임");
+                break;
+            case 'B':
+                System.out.println("B등급임");
+            default:
+                System.out.println("등외");
+        }
     }
 }
