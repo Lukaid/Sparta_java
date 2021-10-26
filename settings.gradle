@@ -1,2 +1,4 @@
 rootProject.name = 'sparta_java'
+include 'FastCampus'
+include 'untitled'
 
